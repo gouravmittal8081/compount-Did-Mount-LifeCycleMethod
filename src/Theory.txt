@@ -1,0 +1,25 @@
+componentDidMount =>
+
+
+ Life cycle me sabse pehle 'constructor' call hota hai ,uske bad 'render' call hota hai and then 'componentDidMount' call hota hai 
+
+
+ @) ham jante hai ki LIFE cycle three phase me run hoti hai jo ki
+ 1.Mounting(constructor banana)
+ 2.Updating(render banana and kuch add ,update krna)
+ 3.Unmounting(isme remove krne se hai)
+
+
+
+ @) Iska most important use 'API call' krna hota hai ,
+
+pehle ""Render" call hota hai or jab vo pura load ho jata hai to fir ye  Component-Did-Mount API call krta hai
+
+
+
+'componentDidMount' tab run krta hai jab HTML complete run kar chuki hoti hai or "componentDidUpdate" tab run krta hai jab hamare code me state ya props update hoti hai
+
+
+jab ham koi bhi update karenge to isme bs render hi call hoga componentDidMount nhi hoga ye bs mouting me hi call hota hai 
+update krne ke bad ye call nh hoga
+
